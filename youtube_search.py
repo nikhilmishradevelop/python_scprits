@@ -8,7 +8,7 @@ import webbrowser
 import requests
 from bs4 import BeautifulSoup
 
-songName = input("Enter the song : ")
+songName = input("Enter the song name : ")
 songName = songName.replace(' ', '+')
 
 # search for the best similar matching video
